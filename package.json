@@ -1,0 +1,12 @@
+{
+  "name": "sportcars-puppeteer",
+  "scripts": {
+    "scrapper": "node src/services/inventory.js",
+    "combine": "node src/services/combine.js",
+    "build": "node src/services/csv.js"
+  },
+  "dependencies": {
+    "json2csv": "^5.0.7",
+    "puppeteer": "^19.2.2"
+  }
+}
